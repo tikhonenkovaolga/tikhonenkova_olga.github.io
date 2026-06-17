@@ -4,68 +4,7 @@
         
 <a
     href="https://colab.research.google.com/drive/16bl-P6BnCWCkbBCuZ8RY4SwZJthwnqBB?usp=sharing">ROCK; PAPER; SCISSORS </a>
-        </body>
-</html>
-    
-    
-    import random
-
-
-# choosing a user option
-def user_choice():
-    # here user must enter a choice
-    user_choice = input("Enter a choice (rock, paper, scissors): ").lower()
-    # checking the correct input
-    while user_choice not in ["rock", "paper", "scissors"]:
-        user_choice = input("Invalid choice. Enter a choice (rock, paper, scissors): ").lower()
-    return user_choice
-
-
-# choosing a computer option, # computer will select options randomly via import random command.
-def computer_choice():
-    # random computer selection
-    computer_choice1 = random.choice(["rock", "paper", "scissors"])
-    print(computer_choice1)
-    return computer_choice1
-
-
-# conditonal function: Using an if, elif and else conditon you can compare player's choices and determine a winner.
-def determine_winner(user_choice, computer_choice):
-    # option, when the selection matches:
-    if user_choice == computer_choice:
-        print(f"Both players choose {user_choice}. It's a tie.")
-    elif user_choice == "rock":
-        if computer_choice == "paper":
-            print("You lost. Paper covers rock.")
-        else:
-            print("You win! Rock breaks scissors.")
-    elif user_choice == "paper":
-        if computer_choice == "scissors":
-            print("You lost. Scissors cut paper.")
-        else:
-            print("You win! Paper covers rock.")
-    elif user_choice == "scissors":
-        if computer_choice == "rock":
-            print("You lost. Rock breaks scissors.")
-        else:
-            print("You win! Scissors cut paper.")
-
-# continuation of the game
-def continue_game():
-    while True:
-        answer = input("Do you want to play game? y/n: ").lower()
-        if answer == 'y':
-            determine_winner(user_choice(), computer_choice())
-        elif answer == 'n':
-            print("Thank you for the game! Bye!")
-            break
-        else:
-            print("Invalid input. Please enter 'y' or 'n': ")
-
-
-continue_game()
-
-MINI PROJECT ON ROCK; PAPER; SCISSORS
+          MINI PROJECT ON ROCK; PAPER; SCISSORS
 (BY: OLGA TIKHONENKOVA)
 
 Herse is the  summary and important points of the Rock Paper Scissors game in Python.
@@ -99,6 +38,14 @@ Run the game in a loop (e.g., using while) to allow replaying
 Ensure user only enters valid choices (rock, paper, scissors)
 
 if not prompt invalid input.
+        </body>
+</html>
+    
+    
+    
+
+
+
 
 
 
