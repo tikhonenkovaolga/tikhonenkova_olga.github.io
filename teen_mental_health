@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Mental Health Analysis</title>
+</head>
+<body>
+
+    <h1>Teen Mental Health Analysis</h1>
+
+    <p>
+        This project analyzes factors affecting adolescent mental health using
+        data analysis and visualization techniques.
+    </p>
+
+    <p>
+        The study examines relationships between age, gender, academic pressure,
+        lifestyle habits, and indicators of mental well-being.
+    </p>
+
+    <p>
+        Python libraries such as Pandas, Matplotlib, and Seaborn were used to
+        explore the data and identify key patterns and trends.
+    </p>
+
+    <p>
+        The findings provide valuable insights into the challenges faced by
+        teenagers and highlight the importance of mental health awareness and support.
+    </p>
+
+</body>
+</html>
